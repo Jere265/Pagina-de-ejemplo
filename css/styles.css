@@ -1,3 +1,23 @@
-h1 {
+:root {
+    --negro: rgb(34, 40, 49);
+    --grisoscuro: rgb(57, 62, 70);
+    --verdeazul: rgb(0, 173, 181);
+    --gris: rgb(238, 238, 238);
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.titulo, subtitulo {
     text-align: center;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: solid var(--negro) 1px;
+    border-radius: 5px;
+    justify-self: center;
 }
