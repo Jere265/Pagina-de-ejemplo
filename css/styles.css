@@ -14,13 +14,13 @@ body {
     text-align: center;
 }
 
-.contenedor {
+.principal {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     justify-self: center;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 400px;
+    margin-right: 400px;
 }
 
 .item {
@@ -30,4 +30,19 @@ body {
 .titulo + p {
     padding-right: 15px;
     padding-left: 15px;
+}
+
+.formulario {
+    /* display: flex; */
+    /* justify-content: center; */
+    /* justify-self: center; */
+    margin-left: 200px;
+    margin-right: 200px;
+
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.footer {
+    
 }
